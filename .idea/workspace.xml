@@ -4,16 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b09a194-5de9-4634-ad94-23afcc1caf38" name="Changes" comment="Tein tehtävä 6">
-      <change afterPath="$PROJECT_DIR$/Module3/tehtävä1.py" afterDir="false" />
+    <list default="true" id="6b09a194-5de9-4634-ad94-23afcc1caf38" name="Changes" comment="update new folder">
+      <change afterPath="$PROJECT_DIR$/Module3/tehtävä2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module3/tehtävä3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module3/tehtävä4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tunntitehtävä/noppa.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tunntitehtävä/tuntitehtävä1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tehtavä3.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module1&amp;2/Tehtavä3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tehtävä1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module1&amp;2/Tehtävä1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tehtävä2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module1&amp;2/Tehtävä2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tehtävä4.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module1&amp;2/Tehtävä4.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tehtävä5.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module1&amp;2/Tehtävä5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tehtävä6.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module1&amp;2/Tehtävä6.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module1&amp;2/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Module3/tehtävä1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module3/tehtävä1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +40,9 @@
     &quot;accountId&quot;: &quot;cbfcfc66-c38d-483a-b9f2-c028da4a7c01&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -53,24 +54,34 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.Tehtavä3.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Tehtävä2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Tehtävä4.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Tehtävä5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Tehtävä6.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.task2.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Tehtavä3.executor": "Run",
+    "Python.Tehtävä2.executor": "Run",
+    "Python.Tehtävä4.executor": "Run",
+    "Python.Tehtävä5.executor": "Run",
+    "Python.Tehtävä6.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.task2.executor": "Run",
+    "Python.tehtävä1.executor": "Run",
+    "Python.tehtävä2.executor": "Run",
+    "Python.tehtävä3.executor": "Run",
+    "Python.tehtävä4.executor": "Run",
+    "Python.tuntitehtävä1.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nipad\Desktop\PythonModule1\Module1&amp;2" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="PythonModule1" />
@@ -126,13 +137,22 @@
       <option name="project" value="LOCAL" />
       <updated>1755879339284</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="update new folder">
+      <option name="closed" value="true" />
+      <created>1756284794853</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1756284794853</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Tehtävä päivitä" />
     <MESSAGE value="Tein tehtävä 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="Tein tehtävä 6" />
+    <MESSAGE value="update new folder" />
+    <option name="LAST_COMMIT_MESSAGE" value="update new folder" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
