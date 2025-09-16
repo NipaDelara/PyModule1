@@ -22,7 +22,6 @@ def get_airport_coordinates(icao):
     else:
         return None
 
-# --- Main Program ---
 icao1 = input("Enter the ICAO code of the first airport: ").upper()
 icao2 = input("Enter the ICAO code of the second airport: ").upper()
 
