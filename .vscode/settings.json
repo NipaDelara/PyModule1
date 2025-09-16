@@ -1,0 +1,28 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default",
+                "enableSsl": "Disabled"
+            },
+            "ssh": "Disabled",
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3307,
+            "driver": "MariaDB",
+            "name": "LocalMariaDB",
+            "database": "flight_game",
+            "username": "root",
+            "askForPassword": true
+        }
+    ],
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./harjoitus",
+        "-p",
+        "test_*.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestEnabled": true
+}

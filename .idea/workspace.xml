@@ -4,14 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b09a194-5de9-4634-ad94-23afcc1caf38" name="Changes" comment="update new folder">
-      <change afterPath="$PROJECT_DIR$/Module3/tehtävä2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module3/tehtävä3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Module3/tehtävä4.py" afterDir="false" />
+    <list default="true" id="6b09a194-5de9-4634-ad94-23afcc1caf38" name="Changes" comment="module8 tehtävä 3 update">
+      <change afterPath="$PROJECT_DIR$/harjoitus/if_else_statement/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/harjoitus/if_else_statement/task1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/harjoitus/if_else_statement/task2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/harjoitus/if_else_statement/task3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/harjoitus/if_else_statement/task4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/harjoitus/loop/task1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/harjoitus/loop/task2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/harjoitus/loop/task3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/harjoitus/loop/task4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/harjoitus/loop/task5.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/harjoitus/testf.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/harjoitus/triangle.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tunntitehtävä/dice.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tunntitehtävä/noppa.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tunntitehtävä/test.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/tunntitehtävä/tuntitehtävä1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/PythonModule1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/PythonModule1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Module3/tehtävä1.py" beforeDir="false" afterPath="$PROJECT_DIR$/Module3/tehtävä1.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +34,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Test" />
         <option value="Python Script" />
       </list>
     </option>
@@ -40,6 +54,9 @@
     &quot;accountId&quot;: &quot;cbfcfc66-c38d-483a-b9f2-c028da4a7c01&quot;
   }
 }</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Module8/database_connector.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
@@ -63,26 +80,63 @@
     "Python.Tehtävä4.executor": "Run",
     "Python.Tehtävä5.executor": "Run",
     "Python.Tehtävä6.executor": "Run",
+    "Python.database_connector.executor": "Run",
+    "Python.dice.executor": "Run",
     "Python.main.executor": "Run",
+    "Python.task1.executor": "Run",
     "Python.task2.executor": "Run",
+    "Python.task3.executor": "Run",
+    "Python.task4.executor": "Run",
+    "Python.task5.executor": "Run",
     "Python.tehtävä1.executor": "Run",
     "Python.tehtävä2.executor": "Run",
     "Python.tehtävä3.executor": "Run",
     "Python.tehtävä4.executor": "Run",
+    "Python.tehtävä5.executor": "Run",
+    "Python.tehtävä6.executor": "Run",
+    "Python.test.executor": "Run",
+    "Python.test1.executor": "Run",
+    "Python.testf.executor": "Run",
+    "Python.triangle.executor": "Run",
     "Python.tuntitehtävä1.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true"
+    "ignore.virus.scanning.warn.message": "true",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\nipad\Desktop\PythonModule1\Module8" />
       <recent name="C:\Users\nipad\Desktop\PythonModule1\Module1&amp;2" />
     </key>
   </component>
   <component name="RunManager">
+    <configuration name="database_connector" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonModule1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Module8" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Module8/database_connector.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="PythonModule1" />
       <option name="ENV_FILES" value="" />
@@ -105,11 +159,40 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="tehtävä3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PythonModule1" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="SDK_NAME" value="Python 3.11 (nipad)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Module8" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Module8/tehtävä3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.tehtävä3" />
+        <item itemvalue="Python.database_connector" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-d9fa9deec7cb-d902c0275401-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-252.23892.515" />
+        <option value="bundled-python-sdk-8753aad8314d-d902c0275401-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-252.25557.178" />
       </set>
     </attachedChunks>
   </component>
@@ -145,14 +228,77 @@
       <option name="project" value="LOCAL" />
       <updated>1756284794853</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="module3 tehtävä päivittä">
+      <option name="closed" value="true" />
+      <created>1756324461326</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1756324461326</updated>
+    </task>
+    <task id="LOCAL-00005" summary="module4 tehtävä päivittä">
+      <option name="closed" value="true" />
+      <created>1756911322519</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1756911322519</updated>
+    </task>
+    <task id="LOCAL-00006" summary="module5 tehtävä">
+      <option name="closed" value="true" />
+      <created>1757181893364</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1757181893364</updated>
+    </task>
+    <task id="LOCAL-00007" summary="module6 tehtävä">
+      <option name="closed" value="true" />
+      <created>1757494294781</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1757494294781</updated>
+    </task>
+    <task id="LOCAL-00008" summary="module7 tehtävä">
+      <option name="closed" value="true" />
+      <created>1757617612492</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1757617612492</updated>
+    </task>
+    <task id="LOCAL-00009" summary="module8 tehtävä">
+      <option name="closed" value="true" />
+      <created>1758024656452</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1758024656452</updated>
+    </task>
+    <task id="LOCAL-00010" summary="module8 tehtävä 3 update">
+      <option name="closed" value="true" />
+      <created>1758024797019</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1758024797019</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Tehtävä päivitä" />
     <MESSAGE value="Tein tehtävä 6" />
     <MESSAGE value="update new folder" />
-    <option name="LAST_COMMIT_MESSAGE" value="update new folder" />
+    <MESSAGE value="module3 tehtävä päivittä" />
+    <MESSAGE value="module4 tehtävä päivittä" />
+    <MESSAGE value="module5 tehtävä" />
+    <MESSAGE value="module6 tehtävä" />
+    <MESSAGE value="module7 tehtävä" />
+    <MESSAGE value="module8 tehtävä" />
+    <MESSAGE value="module8 tehtävä 3 update" />
+    <option name="LAST_COMMIT_MESSAGE" value="module8 tehtävä 3 update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -161,6 +307,11 @@
           <url>file://$PROJECT_DIR$/Module1&amp;2/Tehtavä3.py</url>
           <line>3</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/harjoitus/loop/task5.py</url>
+          <line>6</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
