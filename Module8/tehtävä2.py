@@ -1,40 +1,42 @@
-import mysql.connector
+import mariadb
 
-def airports_by_country():
-    connection = mysql.connector.connect(
-         host='127.0.0.1',
-         port=3307,
-         database='flight_game',
-         user='root',
-         password='1234',
-         autocommit=True
+def get_connection():
+    return mariadb.connect(
+        host="127.0.0.1",
+        user="root",
+        password="12345",
+        database="flight_game",
+        port=3307
     )
-    cursor = connection.cursor()
 
-    # Ask for area code (e.g., FI)
-    country_code = input("Enter country area code (e.g., FI): ").strip().upper()
+def main():
+    global connection, cursor
+    country_code = input("Enter country code (e.g. FI, EE, US): ").strip().upper()
 
-    # Query: count airports by type for given country
-    sql = """
-        SELECT type, COUNT(*) 
-        FROM airport 
-        WHERE iso_country = %s
-        GROUP BY type
-        ORDER BY type;
-    """
-    cursor.execute(sql, (country_code,))
-    results = cursor.fetchall()
+    try:
+        connection = get_connection()
+        cursor = connection.cursor()
 
-    if results:
-        print(f"\nAirports in {country_code}:")
-        for row in results:
-            print(f"{row[1]} {row[0]} airports")
-    else:
-        print("No airports found for that area code.")
+        # Query airports by country
+        sql = "SELECT name, ident FROM airport WHERE iso_country = ?"
+        cursor.execute(sql, (country_code,))
+        results = cursor.fetchall()
 
-    cursor.close()
-    connection.close()
+        if results:
+            print(f"\nAirports in {country_code}:")
+            for row in results:
+                # row[0] = name, row[1] = ident
+                print(f"{row[1]} - {row[0]}")
+        else:
+            print("No airports found for that area code.")
+
+    except mariadb.Error as e:
+        print(f"Database error: {e}")
+    finally:
+        if 'cursor' in locals():
+            cursor.close()
+        if 'connection' in locals():
+            connection.close()
 
 if __name__ == "__main__":
-    airports_by_country()
-
+    main()
